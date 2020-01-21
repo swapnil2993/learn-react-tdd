@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button {
+  background-color: #008cba; /* Green */
+  border-radius: 2px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  padding: 10px 24px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
