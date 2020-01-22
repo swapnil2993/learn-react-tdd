@@ -5,7 +5,7 @@ import HelloWorld from "../HelloWorld";
 
 afterEach(cleanup);
 
-test("test hello-world", () => {
+test("test hello-world with no lib", () => {
   const div = document.createElement("div");
   document.body.appendChild(div);
   ReactDOM.render(<HelloWorld />, div);

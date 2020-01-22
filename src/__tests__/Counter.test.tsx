@@ -7,6 +7,7 @@ afterEach(cleanup);
 
 test("test counter", () => {
   const { getByText } = render(<Counter />);
+
   const btn1 = getByText("+1");
   const btn5 = getByText("+5");
   const resultDiv = getByText(/Count Value is/);
